@@ -148,7 +148,7 @@ body {
 }
 
 .card {
-
+    margin: 0 auto;
     display: inline-block;
     width: 250px;
     border-radius: 10px;
