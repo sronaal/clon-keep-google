@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+
+header .header{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: 1px solid gray;
+    
+}
+
+header .logo-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+header .logo p{
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 400;
+}
+
+header form {
+    position: relative;
+}
+
+header form svg{
+    top: 30%;
+    left: 10px;
+    position: absolute;
+}
+
+header form input{
+    width: 650px;
+    padding: 18px 40px;
+    background-color: #525355;
+    border: none;
+    border-radius: 15px;
+}
+
+header form input:active{
+    background-color: #fff;
+    border: #fff;
+}
+
+header form input:focus{
+    background-color: #fff;
+    border: #fff;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .formulario{
+    margin: 20px;
+    border: 1px solid #525355;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    border-radius: 10px;
+}
+
+main .formulario form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+
+main .formulario form input{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #202124;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+main .formulario form input:focus{
+    border: none;
+    outline: none;
+}
+
+main .formulario form textarea{
+    width: 100%;
+    font-size: 16px;
+    font-family: 400;
+    background-color: #202124;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    height: auto;
+    overflow-y: hidden;
+    resize: none;
+}
+
+main .formulario form textarea{
+    border: none;
+    outline: none;
+}
+
+main .formulario form button{
+    width: 100px;
+    margin-left: 80%;
+    padding: 10px;
+    background-color: #202124;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+main .formulario form button:hover{
+    background-color: #333232;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #202124;
+}
+
+main .notas{
+
+    border: 1px solid white;
+}
